@@ -12,8 +12,7 @@
     "directories": {},
     "dependencies": {
       "bootstrap": "github:twbs/bootstrap@^3.3.5",
-      "react": "npm:react@^0.14.0-beta1",
-      "whatwg-fetch": "npm:whatwg-fetch@^0.9.0"
+      "react": "npm:react@^0.14.0-beta1"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.1.13",
