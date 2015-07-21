@@ -11466,7 +11466,7 @@ System.register('app/repository-list', ['npm:babel-runtime@5.7.0/helpers/get', '
                     value: function componentDidMount() {
                         var _this = this;
 
-                        reposForUser('andrenventer').then(function (repos) {
+                        reposForUser('tj').then(function (repos) {
                             _this.setState({ repos: repos });
                         });
                     }
