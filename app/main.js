@@ -1,7 +1,7 @@
 import React from 'react';
 import RepositoryList from './repository-list';
 
-class HelloWorld extends React.Component{
+class Main extends React.Component{
     render() {
         return (
             <div>
@@ -11,4 +11,4 @@ class HelloWorld extends React.Component{
     }
 }
 
-React.render(<HelloWorld /> ,document.getElementById("app"));
+React.render(<Main /> ,document.getElementById("app"));

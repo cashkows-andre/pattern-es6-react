@@ -11496,7 +11496,7 @@ System.register('app/repository-list', ['npm:babel-runtime@5.7.0/helpers/get', '
     };
 });
 System.register('app/main', ['npm:babel-runtime@5.7.0/helpers/get', 'npm:babel-runtime@5.7.0/helpers/inherits', 'npm:babel-runtime@5.7.0/helpers/create-class', 'npm:babel-runtime@5.7.0/helpers/class-call-check', 'npm:react@0.14.0-beta1', 'app/repository-list'], function (_export) {
-    var _get, _inherits, _createClass, _classCallCheck, React, RepositoryList, HelloWorld;
+    var _get, _inherits, _createClass, _classCallCheck, React, RepositoryList, Main;
 
     return {
         setters: [function (_npmBabelRuntime570HelpersGet) {
@@ -11515,16 +11515,16 @@ System.register('app/main', ['npm:babel-runtime@5.7.0/helpers/get', 'npm:babel-r
         execute: function () {
             'use strict';
 
-            HelloWorld = (function (_React$Component) {
-                _inherits(HelloWorld, _React$Component);
+            Main = (function (_React$Component) {
+                _inherits(Main, _React$Component);
 
-                function HelloWorld() {
-                    _classCallCheck(this, HelloWorld);
+                function Main() {
+                    _classCallCheck(this, Main);
 
-                    _get(Object.getPrototypeOf(HelloWorld.prototype), 'constructor', this).apply(this, arguments);
+                    _get(Object.getPrototypeOf(Main.prototype), 'constructor', this).apply(this, arguments);
                 }
 
-                _createClass(HelloWorld, [{
+                _createClass(Main, [{
                     key: 'render',
                     value: function render() {
                         return React.createElement(
@@ -11535,10 +11535,10 @@ System.register('app/main', ['npm:babel-runtime@5.7.0/helpers/get', 'npm:babel-r
                     }
                 }]);
 
-                return HelloWorld;
+                return Main;
             })(React.Component);
 
-            React.render(React.createElement(HelloWorld, null), document.getElementById('app'));
+            React.render(React.createElement(Main, null), document.getElementById('app'));
         }
     };
 });
