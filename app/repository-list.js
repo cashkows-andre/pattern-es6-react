@@ -6,8 +6,7 @@ export default class RepositoryList extends React.Component {
 
     constructor(props) {
         super(props);
-            super(props);
-            this.state = { repos: [] };
+        this.state = { repos: [] };
     }
 
     componentDidMount() {

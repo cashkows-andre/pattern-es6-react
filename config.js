@@ -1,5 +1,5 @@
 System.config({
-  "baseURL": "/try-jspm/",
+  "baseURL": "/pattern-es6-react/",
   "transpiler": "babel",
   "babelOptions": {
     "optional": [

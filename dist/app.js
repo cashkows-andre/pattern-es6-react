@@ -11458,7 +11458,6 @@ System.register('app/repository-list', ['npm:babel-runtime@5.7.0/helpers/get', '
                     _classCallCheck(this, RepositoryList);
 
                     _get(Object.getPrototypeOf(RepositoryList.prototype), 'constructor', this).call(this, props);
-                    _get(Object.getPrototypeOf(RepositoryList.prototype), 'constructor', this).call(this, props);
                     this.state = { repos: [] };
                 }
 
